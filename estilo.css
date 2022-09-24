@@ -81,6 +81,18 @@ li{
 
 }
 
+li a{
+    color: rgb(255, 166, 0);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1 a{
+    color: #32b9cd;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .footer {
     padding: 45px 0;
     background-color: green;
@@ -92,16 +104,4 @@ li{
 
 .footer p{
     color: #fff;
-}
-
-li a{
-    color: rgb(255, 166, 0);
-    text-decoration: none;
-    cursor: pointer;
-}
-
-h1 a{
-    color: #32b9cd;
-    text-decoration: none;
-    cursor: pointer;
 }

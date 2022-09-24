@@ -1,8 +1,8 @@
 .caixa-form{
-background-color: #706c6c;
-padding: 25px 120px;
-border-radius: 10px;
-margin-top: 20px;
+background-color: rgb(197, 197, 197);
+padding: 60px 50px;
+border-radius: 7px;
+margin-top: 1px;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -10,7 +10,7 @@ justify-content: center;
 }
 
 .caixa-form h2{
-    color: aqua;
+    color: #e6005a;
     font-size: 30px;
     margin-bottom: 10px;
 }
@@ -22,20 +22,19 @@ justify-content: center;
 
 }
 
+.campo p{
+    color: #e6005a;
+    margin-top: 10px;
+    margin-left: 85px;
+    font-size: 20px;
+    display: solid;
+}
+
 .campo input{
     padding: 10px;
     border-radius: 10px;
     border: 2px solid #32b9cd;
     color: black;
-}
-
-.campo label{
-    color: #32b9cd;
-    margin: 15px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    font-size: 22px;
 }
 
 .caixa-form button{
